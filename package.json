@@ -1,0 +1,18 @@
+{
+  "name": "tsc-ember-array-slow",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "repository": "git@github.com:mogstad/typescript-ember-slow-example.git",
+  "license": "PUBLIC DOMAIN",
+  "author": "Bjarne Mogstad",
+  "scripts": {
+    "start": "time tsc --project . --noEmit",
+    "profile": "node --inspect-brk ./node_modules/.bin/tsc --project . --noEmit"
+  },
+  "devDependencies": {
+    "@types/ember": "^3.0.20",
+    "ember-source": "~3.4.2",
+    "typescript": "^3.0.3"
+  }
+}
